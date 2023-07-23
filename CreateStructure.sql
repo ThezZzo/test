@@ -1,0 +1,2 @@
+CREATE database test
+
