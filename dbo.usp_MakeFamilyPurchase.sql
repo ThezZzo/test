@@ -9,5 +9,5 @@ IF (EXISTS(SELECT dbo.Family.SurName from dbo.Family where dbo.Family.SurName = 
 	END
 ELSE 
 	BEGIN
-		SELECT 'Семья  ' + @FamilySurName + ' отсутствует в базе данных'
+		SELECT 'Family  ' + @FamilySurName + ' is not exist'
 	END
