@@ -18,4 +18,4 @@ CREATE TABLE dbo.Basket (
 	Value decimal NOT NULL CHECK (Value > 0),
 	PurchaseDate DATE DEFAULT GETDATE(),
 	DiscountValue decimal
-	)
+)
